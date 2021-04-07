@@ -1,0 +1,21 @@
+function lifeInWeeks(age) {
+    
+/************Don't change the code above************/    
+    
+    //Write your code here.
+    var day = 90 * 365;
+    var week = 90 * 52;
+    var months = 90 * 12;
+
+    var d = day-(age * 365);
+    var w =  week-(age * 52);
+    var m =  months-(age * 12);
+    
+console.log("You have" + ' ' + d + ' ' + "days," + ' ' + w + ' ' + "weeks," + ' ' + "and" + ' ' + m + ' ' + "months"  + ' ' +  "left.");
+  
+    
+    
+/*************Don't change the code below**********/
+}
+
+lifeInWeeks(10);
